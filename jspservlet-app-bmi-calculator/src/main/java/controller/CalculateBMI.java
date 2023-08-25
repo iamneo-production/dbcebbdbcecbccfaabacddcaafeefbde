@@ -7,6 +7,8 @@ public class CalculateBMI {
 	
 public static double calculate(double h,double w){
 	return  (w/(h*h))*10000;
+	System.out.println(ans);
+	return ans;
   }
   
   String description(double d){
