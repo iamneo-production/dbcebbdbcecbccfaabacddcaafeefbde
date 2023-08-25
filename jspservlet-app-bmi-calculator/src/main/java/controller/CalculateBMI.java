@@ -6,12 +6,15 @@ public class CalculateBMI {
 
 	
 public static double calculate(double h,double w){
-	return  (w/(h*h))*10000;
-	System.out.println(ans);
-	return ans;
+	double num=(w/(h*h))*10000;
+        double ans    = Math.round(num * 100) / 100.0;
+ 
+        
+         
+        return ans;
   }
   
-  String description(double d){
+ public static string description(int d){
 	  if(d<18.5){
 		  return "Under Weight";
 	  }
